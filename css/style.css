@@ -1,0 +1,49 @@
+/* CSS styles for P1: build a portfolio*/
+
+/* zocial font icons for the navbar */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.portfolio_header {
+  background-color: #ffcc66;
+  background-size: contain;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: blue;
+}
+
+.featured_work {
+  padding-bottom: 20px;
+  font-family: Verdana;
+}
+
+@media screen and (min-width: 920px) {
+  .container:last-of-type {
+    width: 920px;
+  }
+}

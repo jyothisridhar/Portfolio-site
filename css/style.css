@@ -1,12 +1,11 @@
 /* CSS styles for P1: build a portfolio*/
 
 /* zocial font icons for the navbar */
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=brandico);
 
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  font-size: 16px;
-  color: black;
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
 }
 
 body {
@@ -16,6 +15,12 @@ body {
 
 .navbar {
   margin-bottom: 0;
+}
+
+.nav_item {
+  width: 48px;
+  height: 48px;
+  line-height: 1.5em;
 }
 
 .portfolio_header {
@@ -38,6 +43,7 @@ a:hover {
 }
 
 .featured_work {
+  line-height: 2em;
   padding-bottom: 20px;
   font-family: Verdana;
 }

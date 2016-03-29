@@ -48,8 +48,8 @@ a:hover {
   font-family: Verdana;
 }
 
-@media screen and (min-width: 920px) {
+/*@media screen and (min-width: 1200px) {
   .container:last-of-type {
     width: 920px;
   }
-}
+}*/
